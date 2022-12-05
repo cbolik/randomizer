@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="'Randomizer: ' + ${file}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1 th:text="'Randomizer: ' + ${file}"></h1>
+<p th:text="'Hey, here\'s your random line from file ' + ${file} + ':'" />
+<p th:text="${randomLine}" />
+
+</body>
+</html>

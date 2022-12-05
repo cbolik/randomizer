@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="'Randomizer: ' + ${file}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Uhm... that didn't work.</h1>
+<p>There was a problem reading file <i th:text="${fileRelPath}" /> : <b th:text="${error}" /></p>
+<p></p>
+</body>
+</html>
